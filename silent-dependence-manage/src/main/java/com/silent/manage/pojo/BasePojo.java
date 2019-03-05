@@ -7,12 +7,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.Serializable;
 
-/**
- * \* User: silent
- * \* Date: 27/11/17 Time: 18:57
- * \* Description:
- * \
- */
+
 public class BasePojo implements Serializable{
     private static final Logger logger = LoggerFactory.getLogger(BasePojo.class);
 

@@ -4,12 +4,6 @@ package com.silent.manage.vo;
 import com.silent.manage.constants.Constant;
 import com.silent.manage.pojo.BasePojo;
 
-/**
- * \* User: SILENT
- * \* Date: 27/11/17 Time: 14:57
- * \* Description: 返回体模板
- * \
- */
 public class BaseVo extends BasePojo {
 
     private Integer code = Constant.RESPONSE_SUCCESS_CODE;//返回码
