@@ -11,7 +11,7 @@
         <module>service-one</module>
         <module>service-tow</module>
         <module>silent-dependence-manage</module>
-        <module>server-java</module>
+        <module>service-java-base-test</module>
     </modules>
     <packaging>pom</packaging>
     <name>spring-cloud-start-fescar</name>
