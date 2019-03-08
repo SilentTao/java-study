@@ -1,4 +1,4 @@
-package com.silent.jvm;
+package com.silent.jvm.reflection;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -8,7 +8,7 @@ public class ByteCodeSample {
 
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, NoSuchFieldException {
 
-        Class rc=Class.forName("com.silent.jvm.Refelct");
+        Class rc=Class.forName("com.silent.jvm.reflection.Refelct");
         Refelct refelct=(Refelct)rc.newInstance();
         System.out.println("class name is "+rc.getName());
         Method getHello=rc.getDeclaredMethod("thowHello",String.class);

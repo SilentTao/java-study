@@ -1,4 +1,4 @@
-package com.silent.controller;
+package com.silent.multithreading;
 
 /**
  * \* User: silent

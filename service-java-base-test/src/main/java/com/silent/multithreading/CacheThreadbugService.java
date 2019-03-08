@@ -1,17 +1,17 @@
-package com.silent.controller;
+package com.silent.multithreading;
 
 /**
  * \* User: silent
  * \* Date: 01/03/19 Time: 14:04
- * \* Description:
+ * \* Description: 测试多核cpu导致的线程问题(由于原子性不符合--->cache导致的)
  * \
  */
-public class CacheBugService {
+public class CacheThreadbugService {
 
     private static long count = 0;
 
     private static long calc() throws InterruptedException {
-        final CacheBugService test = new CacheBugService();
+        final CacheThreadbugService test = new CacheThreadbugService();
         Thread th1 = new Thread(() -> {
             test.add10000W();
         });

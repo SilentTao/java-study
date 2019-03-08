@@ -1,4 +1,4 @@
-package com.silent.controller.tool;
+package com.silent.multithreading.tool;
 
 import io.swagger.annotations.Api;
 import org.springframework.http.MediaType;
