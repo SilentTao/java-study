@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * \* User: silent
  * \* Date: 14/03/19 Time: 10:37
- * \* Description:
+ * \* Description: 测试开闭原则的demo
  * \
  */
 public class OpenCloseDemo {

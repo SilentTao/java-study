@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * \* User: silent
  * \* Date: 14/03/19 Time: 10:35
- * \* Description:
+ * \* Description: 总面积管理类
  * \
  */
 public class AreManager {
