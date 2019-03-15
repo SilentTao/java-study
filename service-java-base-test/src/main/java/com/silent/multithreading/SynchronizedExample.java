@@ -7,7 +7,8 @@ package com.silent.multithreading;
  * \
  */
 public class SynchronizedExample {
-    private static int volatileOjbct = 12;
+
+    private static volatile int volatileObject = 12;
 
 
     /**
@@ -18,18 +19,21 @@ public class SynchronizedExample {
      */
     public static void main(String[] args) throws InterruptedException {
 
-        volatileOjbct = 122;
+
         Thread thread = new Thread(() -> {
-            changeX(volatileOjbct);
+            changeVolatileObject(volatileObject);
         });
-        volatileOjbct = 130;
+        volatileObject = 130;
         thread.start();
         thread.join();
 
     }
 
-    static synchronized void changeX(Integer x) {
-        volatileOjbct = 5;
+    static  void changeVolatileObject(Integer x) {
+        volatileObject = 5;
         System.out.println("我是 x :" + x);
     }
+
+
+
 }
