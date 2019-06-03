@@ -32,7 +32,7 @@ public class Swagger2Config {
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("silent-server-one"))
+                .apis(RequestHandlerSelectors.basePackage("com.silent"))
                 .paths(PathSelectors.any())
                 .build()
                 //.globalOperationParameters(parameters)
