@@ -29,20 +29,10 @@ public class Swagger2Config {
 
     @Bean
     public Docket createRestApi() {
-        //添加全局header参数
-        ParameterBuilder parameterToken = new ParameterBuilder();
-        ParameterBuilder parameterScene = new ParameterBuilder();
-        ParameterBuilder parameterLanguage = new ParameterBuilder();
-        List<Parameter> parameters = new ArrayList<Parameter>();
-        parameterToken.name("token").description("令牌,v4及其以上接口都需要").modelRef(new ModelRef("string")).parameterType("header").required(false).build();
-        parameterScene.name("scene").description("场景,需要做场景区分的接口").modelRef(new ModelRef("string")).parameterType("header").required(false).build();
-        parameterLanguage.name("language").description("语言,需要做语言区分的接口").modelRef(new ModelRef("string")).parameterType("header").required(false).build();
-        parameters.add(parameterToken.build());
-        parameters.add(parameterScene.build());
-        parameters.add(parameterLanguage.build());
+
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.pmpd.common"))
+                .apis(RequestHandlerSelectors.basePackage("silent-server-one"))
                 .paths(PathSelectors.any())
                 .build()
                 //.globalOperationParameters(parameters)
@@ -52,12 +42,8 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("通用功能模块接口API")
-                .description("1.天气  \n" +
-                        "2.对象存储  \n" +
-                        "3.文案获取  \n" +
-                        "4.短信,邮箱  \n" +
-                        "5极光配置管理  \n")
+                .title("")
+                .description("")
                 .version("2.0")
                 .build();
     }
