@@ -111,8 +111,9 @@ public class Btree<Key extends Comparable<Key>, Value> {
             }
         }
 
-        for (int i = h.m; i > j; i--)
+        for (int i = h.m; i > j; i--) {
             h.children[i] = h.children[i - 1];
+        }
         h.children[j] = t;
         h.m++;
         if (h.m < M) {
