@@ -14,7 +14,7 @@ public class Client {
 
 
     public static void main(String[] args) throws Exception {
-        Socket client = new Socket("127.0.0.1", 43211);
+        Socket client = new Socket("127.0.0.1", 8080);
         try {
             PrintWriter output =
                     new PrintWriter(client.getOutputStream(), true);
