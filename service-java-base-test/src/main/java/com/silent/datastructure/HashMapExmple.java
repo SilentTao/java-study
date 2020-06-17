@@ -1,6 +1,7 @@
 package com.silent.datastructure;
 
 import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * \* User: silent
@@ -17,6 +18,7 @@ public class HashMapExmple {
 
         System.out.println(aaa.length);
         HashMap<String,String>  hashMap=new HashMap<>(10,5);
+        ConcurrentHashMap concurrentHashMap=new ConcurrentHashMap();
 
     }
 
