@@ -9,6 +9,7 @@ import java.util.Map;
  * \* User: silent
  * \* Date: 07/03/19 Time: 10:32
  * \* Description:
+ * java -XX:+PrintGCDetails -Xms10M -Xmx10M  ReferenceQueueDemo
  * \
  */
 public class ReferenceQueueDemo {

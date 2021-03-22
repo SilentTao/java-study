@@ -12,6 +12,7 @@
         <module>service-java-base-test</module>
         <module>spring-study</module>
         <module>study-redis</module>
+        <module>study-jvm</module>
     </modules>
     <packaging>pom</packaging>
     <name>java-study</name>

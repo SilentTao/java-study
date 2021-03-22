@@ -1,0 +1,18 @@
+server:
+  port: 80
+  context-path: /spring-boot-quick-start
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web: DEBUG
+        security: DEBUG
+spring:
+  jpa:
+    show-sql: true
+  messages:
+    basename: i18n/messages, i18n/messages_zh
+management:
+  security:
+    roles: ADMIN
