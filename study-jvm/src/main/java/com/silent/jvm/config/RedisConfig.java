@@ -1,4 +1,4 @@
-package com.silent.redis.config;
+package com.silent.jvm.config;
 
 import redis.clients.jedis.Jedis;
 

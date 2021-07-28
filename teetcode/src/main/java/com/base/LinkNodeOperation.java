@@ -14,7 +14,7 @@ public class LinkNodeOperation {
     private LinkNode end;
     private Integer size;
 
-    public static void main(String[] args) {
+    public static void main(StringTest[] args) {
 
         Node head = new Node(1);
         Node node2 = new Node(2);

@@ -1,4 +1,4 @@
-package com.silent.redis.using;
+package com.silent.jvm.using;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -16,7 +16,7 @@ public class ArrayOperation {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(StringTest[] args) {
         ArrayOperation arrayOperation = new ArrayOperation(10);
         arrayOperation.insert(1, 0);
         arrayOperation.printArray();

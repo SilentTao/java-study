@@ -1,6 +1,6 @@
-package com.silent.redis.using;
+package com.silent.jvm.using;
 
-import com.silent.redis.config.RedisConfig;
+import com.silent.jvm.config.RedisConfig;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Pipeline;
 import redis.clients.jedis.Response;

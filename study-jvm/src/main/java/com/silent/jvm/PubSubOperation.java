@@ -1,8 +1,7 @@
-package com.silent.redis;
+package com.silent.jvm;
 
-import com.silent.redis.config.RedisConfig;
+import com.silent.jvm.config.RedisConfig;
 import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPubSub;
 
 /**
  * Author liutao

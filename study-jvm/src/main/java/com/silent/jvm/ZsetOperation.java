@@ -1,12 +1,9 @@
-package com.silent.redis;
+package com.silent.jvm;
 
-import com.silent.redis.config.RedisConfig;
+import com.silent.jvm.config.RedisConfig;
 import redis.clients.jedis.Jedis;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 /**
  * Author liutao
