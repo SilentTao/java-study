@@ -11,7 +11,8 @@ public class StringTest {
     public static void main(String[] args) {
 
         String aaa="aa cc dd";
-        aaa.toCharArray()
+
+
         System.out.println(aaa);
 
         StringBuffer sb=new StringBuffer();
