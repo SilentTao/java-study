@@ -7,6 +7,8 @@ import java.util.concurrent.atomic.AtomicLong;
  * @author liutao
  * Date 2021/7/19 7:46 下午
  * Description: 线程协同操作demo
+ *  countDownLatch
+ *  CyclicBarrier
  * Version: 1.0
  **/
 public class ThreadSynDemo {

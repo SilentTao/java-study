@@ -9,13 +9,15 @@
         <module>eureka</module>
         <module>base</module>
         <module>teetcode</module>
-        <module>service-java-base-test</module>
+        <module>service</module>
+        <module>server</module>
         <module>spring-study</module>
         <module>study-redis</module>
         <module>study-jvm</module>
         <module>gateway</module>
         <module>study-java</module>
         <module>study-arithmetic</module>
+        <module>study-mysql</module>
     </modules>
     <packaging>pom</packaging>
     <name>java-study</name>
